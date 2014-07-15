@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D0353C19731AC40043670F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D0353B19731AC40043670F /* Foundation.framework */; };
+		A2D0353E19731AC40043670F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D0353D19731AC40043670F /* CoreGraphics.framework */; };
+		A2D0354019731AC40043670F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D0353F19731AC40043670F /* UIKit.framework */; };
+		A2D0354619731AC40043670F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2D0354419731AC40043670F /* InfoPlist.strings */; };
+		A2D0354819731AC40043670F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0354719731AC40043670F /* main.m */; };
+		A2D0354C19731AC40043670F /* AALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0354B19731AC40043670F /* AALAppDelegate.m */; };
+		A2D0354F19731AC40043670F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D0354D19731AC40043670F /* Main.storyboard */; };
+		A2D0355219731AC40043670F /* AALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0355119731AC40043670F /* AALViewController.m */; };
+		A2D0355419731AC40043670F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D0355319731AC40043670F /* Images.xcassets */; };
+		A2D0355B19731AC40043670F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D0355A19731AC40043670F /* XCTest.framework */; };
+		A2D0355C19731AC40043670F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D0353B19731AC40043670F /* Foundation.framework */; };
+		A2D0355D19731AC40043670F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D0353F19731AC40043670F /* UIKit.framework */; };
+		A2D0356519731AC40043670F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2D0356319731AC40043670F /* InfoPlist.strings */; };
+		A2D0356719731AC40043670F /* StockChartScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0356619731AC40043670F /* StockChartScrollTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D0355E19731AC40043670F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D0353019731AC40043670F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D0353719731AC40043670F;
+			remoteInfo = StockChartScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2D0353819731AC40043670F /* StockChartScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockChartScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D0353B19731AC40043670F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2D0353D19731AC40043670F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2D0353F19731AC40043670F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2D0354319731AC40043670F /* StockChartScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockChartScroll-Info.plist"; sourceTree = "<group>"; };
+		A2D0354519731AC40043670F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2D0354719731AC40043670F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2D0354919731AC40043670F /* StockChartScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StockChartScroll-Prefix.pch"; sourceTree = "<group>"; };
+		A2D0354A19731AC40043670F /* AALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALAppDelegate.h; sourceTree = "<group>"; };
+		A2D0354B19731AC40043670F /* AALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALAppDelegate.m; sourceTree = "<group>"; };
+		A2D0354E19731AC40043670F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D0355019731AC40043670F /* AALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AALViewController.h; sourceTree = "<group>"; };
+		A2D0355119731AC40043670F /* AALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALViewController.m; sourceTree = "<group>"; };
+		A2D0355319731AC40043670F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2D0355919731AC40043670F /* StockChartScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockChartScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D0355A19731AC40043670F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2D0356219731AC40043670F /* StockChartScrollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockChartScrollTests-Info.plist"; sourceTree = "<group>"; };
+		A2D0356419731AC40043670F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2D0356619731AC40043670F /* StockChartScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockChartScrollTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D0353519731AC40043670F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0353E19731AC40043670F /* CoreGraphics.framework in Frameworks */,
+				A2D0354019731AC40043670F /* UIKit.framework in Frameworks */,
+				A2D0353C19731AC40043670F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D0355619731AC40043670F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0355B19731AC40043670F /* XCTest.framework in Frameworks */,
+				A2D0355D19731AC40043670F /* UIKit.framework in Frameworks */,
+				A2D0355C19731AC40043670F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D0352F19731AC40043670F = {
+			isa = PBXGroup;
+			children = (
+				A2D0354119731AC40043670F /* StockChartScroll */,
+				A2D0356019731AC40043670F /* StockChartScrollTests */,
+				A2D0353A19731AC40043670F /* Frameworks */,
+				A2D0353919731AC40043670F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D0353919731AC40043670F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0353819731AC40043670F /* StockChartScroll.app */,
+				A2D0355919731AC40043670F /* StockChartScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D0353A19731AC40043670F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0353B19731AC40043670F /* Foundation.framework */,
+				A2D0353D19731AC40043670F /* CoreGraphics.framework */,
+				A2D0353F19731AC40043670F /* UIKit.framework */,
+				A2D0355A19731AC40043670F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2D0354119731AC40043670F /* StockChartScroll */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0354A19731AC40043670F /* AALAppDelegate.h */,
+				A2D0354B19731AC40043670F /* AALAppDelegate.m */,
+				A2D0354D19731AC40043670F /* Main.storyboard */,
+				A2D0355019731AC40043670F /* AALViewController.h */,
+				A2D0355119731AC40043670F /* AALViewController.m */,
+				A2D0355319731AC40043670F /* Images.xcassets */,
+				A2D0354219731AC40043670F /* Supporting Files */,
+			);
+			path = StockChartScroll;
+			sourceTree = "<group>";
+		};
+		A2D0354219731AC40043670F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0354319731AC40043670F /* StockChartScroll-Info.plist */,
+				A2D0354419731AC40043670F /* InfoPlist.strings */,
+				A2D0354719731AC40043670F /* main.m */,
+				A2D0354919731AC40043670F /* StockChartScroll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2D0356019731AC40043670F /* StockChartScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0356619731AC40043670F /* StockChartScrollTests.m */,
+				A2D0356119731AC40043670F /* Supporting Files */,
+			);
+			path = StockChartScrollTests;
+			sourceTree = "<group>";
+		};
+		A2D0356119731AC40043670F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0356219731AC40043670F /* StockChartScrollTests-Info.plist */,
+				A2D0356319731AC40043670F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D0353719731AC40043670F /* StockChartScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D0356A19731AC40043670F /* Build configuration list for PBXNativeTarget "StockChartScroll" */;
+			buildPhases = (
+				A2D0353419731AC40043670F /* Sources */,
+				A2D0353519731AC40043670F /* Frameworks */,
+				A2D0353619731AC40043670F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockChartScroll;
+			productName = StockChartScroll;
+			productReference = A2D0353819731AC40043670F /* StockChartScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D0355819731AC40043670F /* StockChartScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D0356D19731AC40043670F /* Build configuration list for PBXNativeTarget "StockChartScrollTests" */;
+			buildPhases = (
+				A2D0355519731AC40043670F /* Sources */,
+				A2D0355619731AC40043670F /* Frameworks */,
+				A2D0355719731AC40043670F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D0355F19731AC40043670F /* PBXTargetDependency */,
+			);
+			name = StockChartScrollTests;
+			productName = StockChartScrollTests;
+			productReference = A2D0355919731AC40043670F /* StockChartScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D0353019731AC40043670F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Lardizabal";
+				TargetAttributes = {
+					A2D0355819731AC40043670F = {
+						TestTargetID = A2D0353719731AC40043670F;
+					};
+				};
+			};
+			buildConfigurationList = A2D0353319731AC40043670F /* Build configuration list for PBXProject "StockChartScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D0352F19731AC40043670F;
+			productRefGroup = A2D0353919731AC40043670F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D0353719731AC40043670F /* StockChartScroll */,
+				A2D0355819731AC40043670F /* StockChartScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D0353619731AC40043670F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0355419731AC40043670F /* Images.xcassets in Resources */,
+				A2D0354619731AC40043670F /* InfoPlist.strings in Resources */,
+				A2D0354F19731AC40043670F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D0355719731AC40043670F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0356519731AC40043670F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D0353419731AC40043670F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0354819731AC40043670F /* main.m in Sources */,
+				A2D0354C19731AC40043670F /* AALAppDelegate.m in Sources */,
+				A2D0355219731AC40043670F /* AALViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D0355519731AC40043670F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0356719731AC40043670F /* StockChartScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D0355F19731AC40043670F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D0353719731AC40043670F /* StockChartScroll */;
+			targetProxy = A2D0355E19731AC40043670F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2D0354419731AC40043670F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D0354519731AC40043670F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2D0354D19731AC40043670F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D0354E19731AC40043670F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D0356319731AC40043670F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D0356419731AC40043670F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D0356819731AC40043670F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2D0356919731AC40043670F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D0356B19731AC40043670F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockChartScroll/StockChartScroll-Prefix.pch";
+				INFOPLIST_FILE = "StockChartScroll/StockChartScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2D0356C19731AC40043670F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockChartScroll/StockChartScroll-Prefix.pch";
+				INFOPLIST_FILE = "StockChartScroll/StockChartScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2D0356E19731AC40043670F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StockChartScroll.app/StockChartScroll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockChartScroll/StockChartScroll-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StockChartScrollTests/StockChartScrollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2D0356F19731AC40043670F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StockChartScroll.app/StockChartScroll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StockChartScroll/StockChartScroll-Prefix.pch";
+				INFOPLIST_FILE = "StockChartScrollTests/StockChartScrollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D0353319731AC40043670F /* Build configuration list for PBXProject "StockChartScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D0356819731AC40043670F /* Debug */,
+				A2D0356919731AC40043670F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D0356A19731AC40043670F /* Build configuration list for PBXNativeTarget "StockChartScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D0356B19731AC40043670F /* Debug */,
+				A2D0356C19731AC40043670F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D0356D19731AC40043670F /* Build configuration list for PBXNativeTarget "StockChartScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D0356E19731AC40043670F /* Debug */,
+				A2D0356F19731AC40043670F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D0353019731AC40043670F /* Project object */;
+}
